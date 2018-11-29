@@ -47,6 +47,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategies\ISudokuStrategy.cs" />
+    <Compile Include="Strategies\SudokuSolverEngine.cs" />
     <Compile Include="Workers\SudokuBoardDisplayer.cs" />
     <Compile Include="Workers\SudokuBoardStateManager.cs" />
     <Compile Include="Workers\SudokuFileReader.cs" />
@@ -57,7 +58,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Resources\SudokuEasy.txt" />
+    <Content Include="Files\SudokuEasy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
